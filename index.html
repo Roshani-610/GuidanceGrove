@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<head>
+   <meta charset="utf-8">
+   <title>Levelon landing page</title>
+   <link rel="stylesheet" href="style.css">
+
+   <!-- slick slider for feature section-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+   <!-- webinar swipeper -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+   <!-- testimonial swipper -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
+   <!-- font -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+
+<body id="home">
+
+   <!-- ******************  navbar ************** -->
+
+<nav class="main-nav">
+  <div class="container main-nav__container flex">
+    <a href="#" class="main-nav__toggle main-nav__link">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+      <a href="#" class="main-nav__logo">
+          <img src="./images/Levelon Logo.png" alt="company logo">
+      </a>
+      <div class="main-nav__links">
+          <ul class="flex main-naiv__dropdown">
+              <!--navigation links will be generated here -->
+          </ul>
+      </div>    
+      
+      <button class="primary-button" id="main-nav__sign-up">Sign Up</button>
+      
+  </div>
+</nav>
+
+   <!-- ***************** header *******************  -->
+
+  <section class="hero">
+    <div class="hero__header">
+    <div class="hero__content flex container">
+      <div class="hero__column">
+        <div class="hero__title">We Help To Build Your Dream</div>
+        <div class="hero__para">We are always available to consult on taking your higher education to the next level so you can stay competitive</div>
+        <div class="hero__buttons">
+          <button class="hero__button">Get Started</button>
+        </div>
+      </div>
+      <div class="hero__column column">
+        <img src="./images/Rectangle 1955.png" alt="heroImg" class="hero__image" />
+    </div>
+    </div>
+
+    <!-- ********************* feature card *************************-->
+
+    <div class="feature-section">
+      <div class="container">
+          <div class="feature-section__title">Explore Our Category</div>
+          <p class="feature-section__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati deserunt, vitae iusto perspiciatis  </p>
+      </div>
+      <div class="feature-section__field">
+          <!-- Feature cards will be generated here --> 
+      </div>     
+    </div>    
+  </section>  
+
+  <!-- *********************** about section ***************************-->
+
+  <section class="about">
+    <div class="container about__container">
+        <a href="#" class="about__view-button">
+          <button class="about__button">View More</button>
+        </a>
+        <div class="about__title" >What do you want to be</div>
+        
+        <div class="toggle">
+          <span class="toggle__text">Experts</span>
+          <input type="checkbox" id="toggleSwitch" class="toggle__input">
+          <label for="toggleSwitch" class="toggle__label"></label>
+          <span class="toggle__text">Seekers</span>
+        </div>
+
+         <div id="about__seekers">
+            <div class="about__sub-heading">As a seeker you can connect with experts from the various industries</div>
+            <div class="about__row flex container">
+              <div class="about__column column">
+                <div class="container">
+
+                  <div class="about__timeline">
+                    <div class="about__con right">
+                        <i class="icon fa-solid fa-circle" ></i>
+                        <div class="content">
+                            <p class="data">Login or Sign up</p>
+                        </div>
+                    </div>
+                    <div class="about__con right">
+                        <i class="icon fa-solid fa-circle"></i>
+                        <div class="content carrer__active-tl">
+                            <p class="data">Find your expert based on your interest</p>
+                        </div>
+                    </div>
+                    <div class="about__con right">
+                        <i class="icon fa-solid fa-circle"></i>
+                        <div class="content">
+                            <p class="data">Book an Appointment</p>
+                        </div>
+                    </div>
+                    <div class="about__con right">
+                        <i class="icon fa-solid fa-circle"></i>
+                        <div class="content">
+                            <p class="data">Connect with your expert<p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+              <div class="about__column column">
+                <img src="./images/image 106 (1).png" alt="heroImg" class="about__image" />
+              </div>
+            </div>
+        </div>   
+
+        <div id="about__experts">
+          <div class="about__sub-heading">As an expert, You offer your industry-specific knowledge and insights to seekers, providing personalized guidance and valuable assistance.</div>
+          <div class="about__row flex container">
+            <div class="about__column column">
+              <div class="container">
+
+                <div class="about__timeline">
+                  <div class="about__con right">
+                      <i class="icon fa-solid fa-circle" ></i>
+                      <div class="content">
+                          <p class="data">Login or Sign up</p>
+                      </div>
+                  </div>
+                  <div class="about__con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content carrer__active-tl">
+                          <p class="data">Add Your Expertise</p>
+                      </div>
+                  </div>
+                  <div class="about__con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content">
+                          <p class="data">Set Your Availability</p>
+                      </div>
+                  </div>
+                  <div class="about__con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content">
+                          <p class="data">Connect and get paid</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+            <div class="about__column column">
+              <img src="./images/image 107.png" alt="heroImg" class="about__image" />
+            </div>
+        </div>
+      </div> 
+  </div>
+</section>
+
+  
+<!-- ****************************** Services ********************************-->
+
+<section class="services">
+  <div class="container">
+    <div class="services__title">Our Services</div>
+    <p class="services__sub-title">We provide  the best Services for our Customers.</p>
+      
+  <div class="services__grid">
+
+    <div class="services__box" id="services__box-1">
+      <img src="images/Rectangle 1944.png" alt="center">
+    </div>
+
+    <div class="services__box flex" id="services__box-2">
+      <div class="services__data">   
+        <div class="services__box-title">Resume review </div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/Resume.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="services__box flex" id="services__box-3">
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/online learning.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+      <div class="services__data">   
+        <div class="services__box-title">Mentor Ship  </div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+    </div>  
+
+     <div class="services__box flex" id="services__box-4">
+      <div class="services__data">   
+        <div class="services__box-title">Career Guidance   </div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/career.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="services__box flex" id="services__box-5">
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/communication.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+      <div class="services__data">   
+        <div class="services__box-title">Project Review</div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+    </div>  
+
+    <div class="services__box flex" id="services__box-6">
+      <div class="services__data">   
+        <div class="services__box-title">Mock Interview</div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/meeting.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    <div class="services__box flex" id="services__box-7.">
+      <div class="services__data-circle">
+        <div class="services__outer-circle">
+          <div class="services__inner-circle-img">
+            <img src="images/connection.png" alt="resume-img">
+          </div>
+        </div>
+      </div>
+      <div class="services__data">   
+        <div class="services__box-title">Let's Connect </div>
+        <div class="services__box-para">Despite its vast library, there are many titles provide access. </div>
+      </div>
+    </div>  
+  </div>  
+</section>  
+
+<!-- *********************** Cards *************************** -->
+
+<section class="cards">
+  <h2 class="cards__title">Top experts</h2>
+  <p class="cards__para">Looking for the best of the best? Here're the top-rated mentors by the learners' community.</p>
+  <div class="card-section container">
+    <div class="content cards-flex">
+
+      <div class="card" id="down-card-1">
+        <div class="card-content">
+          <div class="image">
+           <img src="images/Ellipse 1885.png" alt=""> 
+          </div>
+          <div class="name-profession">
+            <span class="name">Ravindra</span>
+            <span class="profession">Data scientist at Google</span>
+            <span class="profession">Experience: 8 Years</span>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>          
+        </div>
+      </div>
+
+       <div class="card" id="up-card-2">
+        <div class="card-content">
+          <div class="image">
+           <img src="images/Ellipse 1890.png" alt=""> 
+          </div>
+          <div class="name-profession">
+            <span class="name">David</span>
+            <span class="profession">Data scientist at Google</span>
+            <span class="profession">Experience: 7 Years</span>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>          
+        </div>
+      </div>
+
+       <div class="card" id="down-card-3">
+        <div class="card-content">
+          <div class="image">
+           <img src="images/Ellipse 1895.png" alt=""> 
+          </div>
+          <div class="name-profession">
+            <span class="name">Ashwini</span>
+            <span class="profession">Data scientist at Google</span>
+            <span class="profession">Experience: 4 Years</span>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>          
+        </div>
+      </div>
+      
+      <div class="card" id="up-card-4">
+        <div class="card-content">
+          <div class="image">
+           <img src="images/Ellipse 1896.png" alt=""> 
+          </div>
+          <div class="name-profession">
+            <span class="name">Sathya</span>
+            <span class="profession">Data scientist at Google</span>
+            <span class="profession">Experience: 5 Years</span>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>          
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+</section> 
+
+
+<!-- ************************* Career section *****************************-->
+
+<section class="career">
+  <div class="career__title">Leap 10x career growth with iconic mentors in 4 easy steps</div>
+  <div class="career__row flex container">
+      <div class="career__column">
+          <div class="container ">
+              <div class="carrer__timeline">
+                  <div class="con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content">
+                          <p class="career__data">
+                              Visit the LevelOn Platform
+                          </p>
+                      </div>
+                  </div>
+                  <div class="con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content carrer__active-tl">
+                          <p class="career__data">
+                              Choose the mentor based on your interest
+                          </p>
+                      </div>
+                  </div>
+                  <div class="con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content">
+                          <p class="career__data">
+                              Connect with our top experts
+                          </p>
+                      </div>
+                  </div>
+                  <div class="con right">
+                      <i class="icon fa-solid fa-circle"></i>
+                      <div class="content">
+                          <p class="career__data">
+                              Get your mentorship or career guidance
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="career__column">
+          <img src="./images/25_low 1.png" alt="heroImg" class="hero_img" />
+      </div>
+  </div>
+</section>
+
+<!-- ******************** webinar/ workshop ***************** -->
+
+<section class="webinar" id="webinar">
+  <h2 class="webinar__title">Webinar / Workshops</h2>
+  <p class="webinar__para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+    <div class="webinar__container flex swiper mySwiper">
+      
+      <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <div class="webinar__card">
+        <div class="webinar__card-image">
+          <img src="images/banner1 4.png" alt="webinar-card">
+        </div>
+
+        <div class="webinar__content">
+          <p class="webinar__content-para">Digital Marketing</p>
+          <div class="webinar__data">Despite its vast library, there are many titles to which Netflix can not provide access.</div>
+          <div class="webinar__date-time flex">
+            <div class="webinar__date flex">
+              <img src="images/bx_calendar.png" alt="calendar image">
+              <p class="webinar__month">27July 2023</p>
+            </div>  
+            <div class="webinar__time flex">
+              <img src="images/stopwatch.png" alt="stopwatch">
+              <p class="webinar__time">11.00Am - 12.00Pm</p>
+            </div>  
+          </div>
+          <a href="#" class="webinar__btn">Register Now</a>
+        </div>
+      </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="webinar__card">
+          <div class="webinar__card-image">
+            <img src="images/banner2 2.png" alt="webinar-card">
+          </div>
+  
+          <div class="webinar__content">
+            <p class="webinar__content-para">Learnings Excellence</p>
+            <div class="webinar__data">Despite its vast library, there are many titles to which Netflix can not provide access.</div>
+            <div class="webinar__date-time flex">
+              <div class="webinar__date flex">
+                <img src="images/bx_calendar.png" alt="calendar image">
+                <p class="webinar__month">27July 2023</p>
+              </div>  
+              <div class="webinar__time flex">
+                <img src="images/stopwatch.png" alt="stopwatch">
+                <p class="webinar__time">11.00Am - 12.00Pm</p>
+              </div>  
+            </div>
+            <a href="#" class="webinar__btn">Register Now</a>
+          </div>
+        </div>
+      </div>  
+
+      <div class="swiper-slide">
+        <div class="webinar__card">
+          <div class="webinar__card-image">
+            <img src="images/banner3 2.png" alt="webinar-card">
+          </div>
+    
+          <div class="webinar__content">
+            <p class="webinar__content-para">New ways of Education</p>
+            <div class="webinar__data">Despite its vast library, there are many titles to which Netflix can not provide access.</div>
+            <div class="webinar__date-time flex">
+              <div class="webinar__date flex">
+                <img src="images/bx_calendar.png" alt="calendar image">
+                <p class="webinar__month">27July 2023</p>
+              </div>  
+              <div class="webinar__time flex">
+                <img src="images/stopwatch.png" alt="stopwatch">
+                <p class="webinar__time">11.00Am - 12.00Pm</p>
+              </div>  
+            </div>
+            <a href="#" class="webinar__btn">Register Now</a>
+          </div>
+        </div>  
+      </div>
+
+    </div>
+    <a href="#"  class="webinar__view-button ">
+      <button class="webinar__view-button__btn">View More</button>
+    </a>
+   
+
+</section>
+  
+<!-- ***************** testimonials ***********************-->
+
+<section class="testimonials container">
+  <h2 class="testimonials__title">Testimonials</h2>
+  <p class="testimonials__para">Hear it from our clients.</p>
+  
+  <div class="swiper myswiper">
+    <div class="swiper-wrapper">
+      <div class="testimonials__card swiper-slide">
+        <div class="testimonials__content">
+          <div class="testimonials__photo">
+            <img src="images/Ellipse 1884 (1).png" alt="">
+          </div>
+          <div class="tesimonials__info">
+            <div class="tesimonial__name">Andrea</div>
+            <div class="testimonials__work">Designer</div>
+          </div>
+        </div>
+        <i class="fa fa-quote-left testimonial__i"></i>
+        <div class="tesimonials__description">Despite its vast library, there are many titles to which Netflix can not provide access...</div>
+      </div>
+
+      <div class="testimonials__card swiper-slide">
+        <div class="testimonials__content">
+      <div class="testimonials__photo">
+        <img src="images/Ellipse 1884 (2).png" alt="">
+      </div>
+      <div class="tesimonials__info">
+        <div class="tesimonials__name">Andrea</div>
+        <div class="testimonials__work">Designer</div>
+      </div>
+    </div>
+    <i class="fa fa-quote-left testimonial__i"></i>
+    <p class="tesimonials__description">Despite its vast library, there are many titles to which Netflix can not provide access...</p>
+    </div>
+
+      <div class="testimonials__card swiper-slide">
+        <div class="testimonials__content">
+      <div class="testimonials__photo">
+        <img src="images/Ellipse 1884.png" alt="">
+      </div>
+      <div class="tesimonials__info">
+        <div class="tesimonials__name">Andrea</div>
+        <div class="testimonials__work">Designer</div>
+      </div>
+    </div>
+    <i class="fa fa-quote-left testimonial__i"></i>
+    <p class="tesimonials__description">Despite its vast library, there are many titles to which Netflix can not provide access...</p>
+    </div>
+
+    <div class="testimonials__card swiper-slide">
+      <div class="testimonials__content">
+    <div class="testimonials__photo">
+      <img src="images/Ellipse 1884 (1).png" alt="">
+    </div>
+    <div class="tesimonials__info">
+      <div class="tesimonials__name">Andrea</div>
+      <div class="testimonials__work">Designer</div>
+    </div>
+  </div>
+  <i class="fa fa-quote-left testimonial__i"></i>
+  <p class="tesimonials__description">Despite its vast library, there are many titles to which Netflix can not provide access...</p>
+  </div>
+
+  <div class="testimonials__card swiper-slide">
+    <div class="testimonials__content">
+  <div class="testimonials__photo">
+    <img src="images/Ellipse 1884.png" alt="">
+  </div>
+  <div class="tesimonials__info">
+    <div class="tesimonials__name">Andrea</div>
+    <div class="testimonials__work">Designer</div>
+  </div>
+</div>
+<i class="fa fa-quote-left testimonial__i"></i>
+<p class="tesimonials__description">Despite its vast library, there are many titles to which Netflix can not provide access...</p>
+</div>
+     
+  </div>
+  </div>
+</section>
+
+<!-- ********************** footer **************************-->
+
+  <footer class="footer">
+    <div class="container flex footer__container" id="desk">
+      <div class="footer__logo">
+      <a href="#" class="footer__company-logo">
+        <img src="images/Levelon Logo.png" alt="">
+      </a>  
+      <p class="footer__para">Despite its vast library, there are many titles to which Netflix can not provide access. However, there are several other streaming service </p>
+      </div>
+      
+      <div class="footer__link-column flex">
+        <h4 class="footer__details">Home</h4>
+        <a href="#" class="footer__contact">Our Categories</a>
+        <a href="#" class="footer__contact">Testimonials</a>
+      </div>
+
+      <div class="footer__link-column flex">
+        <h4 class="footer__details">Services</h4>
+      </div>
+
+      <div class="footer__link-column flex">
+        <h4 class="footer__details">Experts</h4>
+      </div>
+
+      <div class="footer__link-column flex">
+        <h4 class="footer__details">About Us</h4>
+      </div>
+
+      <div class="footer__link-column flex">
+        <h4 class="footer__details">Get in Touch</h4>
+        <div class="footer__contact-link flex">
+          <i class="fa-solid fa-phone"></i>
+          <p>+91 9876543211</p>
+        </div>
+        <div class="footer__contact-link flex">
+          <i class="fa-solid fa-envelope"></i>
+          <p><a href="#" class="footer__contact">Levelon@gmail.com</a></p>
+        </div>  
+        <div class="footer__contact-link flex">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+      </div>
+    </div>        
+  </footer>
+
+  <footer class="footer" id="mob">
+    <div class="footer__logo">
+      <a href="#" class="footer__company-logo">
+        <img src="images/Levelon Logo.png" alt="">
+      </a>  
+      <!-- <p class="footer__para">Despite its vast library, there are many titles to which Netflix can not provide access. However, there are several other streaming service </p> -->
+    </div>
+
+    <div class="footer__contact-link flex">
+      <i class="fa-solid fa-phone"></i>
+      <p>+91 9876543211</p>
+    </div>
+    <div class="footer__contact-link flex">
+      <i class="fa-solid fa-envelope"></i>
+      <p><a href="#" class="footer__contact">Levelon@gmail.com</a></p>
+    </div>  
+
+    <div class="container flex footer__container">
+    <div class="footer__link-column flex">
+      <h4 class="footer__details">Home</h4>
+      <a href="#" class="footer__contact">Our Categories</a>
+      <a href="#" class="footer__contact">Testimonials</a>
+    </div>
+
+    <div class="footer__link-column flex">
+      <h4 class="footer__details">Services</h4>
+    </div>
+
+    <div class="footer__link-column flex">
+      <h4 class="footer__details">Experts</h4>
+    </div>
+
+    <div class="footer__link-column flex">
+      <h4 class="footer__details">About Us</h4>
+      <div class="footer__contact-link flex footer__c-icon">
+        <a href="#"><i class="fa-brands fa-linkedin" style="color: #343434;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram" style="color: #343434;"></i></a>
+        <a href="#"><i class="fa-brands fa-square-facebook" style="color: #343434;"></i></a>
+      </div>
+    </div>
+    </div>  
+  </footer>
+  
+  <div class="subfooter">
+    <p class="subfooter__para">All rights 2023 reserved by @ Levelon Technoligies PVT LTD </p>
+  </div>
+
+<!-- slick slider for feature --> 
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+<!-- webinar -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<!-- testimonials swipper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- ****************** font ***********************-->
+<script src="https://kit.fontawesome.com/d4a684e672.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f874530ef2.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
